@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+#page1 {
+  height: 600px;
+  background-color: rgb(140, 206, 227);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page2 {
+  height: 600px;
+  /* width: 100%; */
+  background-color: rgb(84, 181, 213);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  flex-direction: column;
+  gap: 40px;
+}
+#page3 {
+  height: 600px;
+  background-color: rgb(6, 191, 253);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border-radius: 20px;
+}
+#page2 h1 {
+  background-color: yellow;
+}
+#page2 h2 {
+  background-color: cadetblue;
+}
